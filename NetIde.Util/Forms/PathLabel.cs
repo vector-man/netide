@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace NetIde.Util.Forms
 {
-    public class PathLabel : Control
+    public class PathLabel : Label
     {
         private const TextFormatFlags FormatFlags = TextFormatFlags.NoPrefix | TextFormatFlags.PathEllipsis | TextFormatFlags.SingleLine;
 
